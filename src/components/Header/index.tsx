@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import Modal from 'react-modal'
 import logo from '../../assets/logo.svg'
 import { Container, Content } from './styles'
 
@@ -8,8 +6,6 @@ interface HeaderProps {
 }
 
 export function Header({onOpenModal}: HeaderProps) {
-   
-
     return(
         <Container>
             <Content>
